@@ -1,0 +1,59 @@
+[
+  {
+    "payerInfo": {
+      "documentType": "03",
+      "document": "461346",
+      "fullName": "Claudia López",
+      "cellphone": "+573431092832",
+      "email": "clopez@gmail.com"
+    },
+    "cashInInfo": {
+      "amount": "1000000.00",
+      "expirationDate": "2023-09-15T23:59:59.999999999",
+      "description": null,
+      "references": [
+        "Ref2"
+      ],
+      "status": "CREATED",
+      "statusDetail": null
+    }
+  },
+  {
+    "payerInfo": {
+      "documentType": "01",
+      "document": "952456029",
+      "fullName": "Natalia Perez",
+      "cellphone": "+573790765120",
+      "email": "nlopez@cobre.co"
+    },
+    "cashInInfo": {
+      "amount": "2999.00",
+      "expirationDate": "2023-09-15T23:59:59.999999999",
+      "description": null,
+      "references": [
+        "Ref3"
+      ],
+      "status": "CREATED",
+      "statusDetail": null
+    }
+  },
+  {
+    "payerInfo": {
+      "documentType": "02",
+      "document": "82954306",
+      "fullName": "Oscar Gomez",
+      "cellphone": "+573001679059",
+      "email": "ogomez@cobre.co"
+    },
+    "cashInInfo": {
+      "amount": "2000.00",
+      "expirationDate": "2023-09-15T23:59:59.999999999",
+      "description": null,
+      "references": [
+        "Ref1"
+      ],
+      "status": "CREATED",
+      "statusDetail": null
+    }
+  }
+]
