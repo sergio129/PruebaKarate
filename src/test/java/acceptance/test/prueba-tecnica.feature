@@ -74,7 +74,7 @@ Feature: sample karate test script
 
     # --------------------------------------------------------------- #
     # Uso de API REST para obtener información de las novelty-details
-    * def dataWithExpectedInformation = karate.read("classpath:dataJson/" + '<jsonDataWithExpectedInformation>')
+    * def dataWithExpectedInformation = karate.read("classpath:acceptance/test/" + '<jsonDataWithExpectedInformation>')
     * def pageInt = parseInt('<page>')
     * def sizeInt = parseInt('<size>')
     Given url 'https://test-container-qa.prueba.co/v1/entity/novelties/'+noveltyUuid+''+'/novelty-details'
@@ -151,7 +151,7 @@ Feature: sample karate test script
 
     # --------------------------------------------------------------- #
     # Uso de API REST para obtener información de las novelty-details
-    * def dataWithExpectedInformation = karate.read("classpath:dataJson/" + '<jsonDataWithExpectedInformation>')
+    * def dataWithExpectedInformation = karate.read("classpath:acceptance/test/" + '<jsonDataWithExpectedInformation>')
     * def pageInt = parseInt('<page>')
     * def sizeInt = parseInt('<size>')
     Given url 'https://test-container-qa.prueba.co/v1/entity/novelties/'+noveltyUuid+''+'/novelty-details'
