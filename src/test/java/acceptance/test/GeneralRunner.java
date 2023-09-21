@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GeneralRunner {
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:acceptance/test/features")
+        Results results = Runner.path("classpath:acceptance/test")
                 .outputCucumberJson(true)
                 .parallel(1);
         generateReport(results.getReportDir());
