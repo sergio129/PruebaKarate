@@ -100,7 +100,7 @@ Feature: sample karate test script
 
     * def fileExtension = ".csv"
 
-    * def fullFileName = noveltyUuid+fileExtension
+    * def fullFileName = n0oveltyUuid+fileExtension
 
     # --------------------------------------------------------------- #
     * def renameFile = FileUtils.renameFile(currentFilePath, currentFileName, newPathNewFile, noveltyUuid, fileExtension)
