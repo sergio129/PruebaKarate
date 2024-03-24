@@ -1,0 +1,42 @@
+[
+  {
+    "payerInfo": {
+      "documentType": "03",
+      "document": "89308166",
+      "fullName": null,
+      "cellphone": "+573504241615",
+      "email": "correoprueba@gmail.com"
+    },
+    "cashInInfo": {
+      "amount": "1157321.00",
+      "expirationDate": "2023-10-18",
+      "description": "Pago deuda",
+      "references": [
+        "Ref8",
+        "Ref27"
+      ],
+      "status": "VALIDATION_ERROR",
+      "statusDetail": "constraintViolation: fullName: fullName field can't be blank"
+    }
+  },
+  {
+    "payerInfo": {
+      "documentType": "02",
+      "document": "558432",
+      "fullName": "RICARDO TORRES",
+      "cellphone": null,
+      "email": "rtorres@gmail.com"
+    },
+    "cashInInfo": {
+      "amount": "75000.00",
+      "expirationDate": "2023-10-18",
+      "description": null,
+      "references": [
+        "Ref9",
+        "Ref28"
+      ],
+      "status": "VALIDATION_ERROR",
+      "statusDetail": "constraintViolation: phoneNumber: phoneNumber field can't be blank"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+Tipo Documento Pagador;Número de documento;Nombre Pagador;Celular;Correo electrónico;Referencia 1;Referencia 2 (Opcional);Descripcion (Opcional);Monto;Fecha de Vencimiento;URL de redirección
+CE;89308166;;+573504241615;correoprueba@gmail.com;Ref8;Ref27;Pago deuda;1157321;2023-09-20;https://www.google.com
+CC;558432;RICARDO TORRES;;rtorres@gmail.com;Ref9;Ref28;;75000;2023-09-20;https://www.google.com

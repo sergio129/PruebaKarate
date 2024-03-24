@@ -1,0 +1,6 @@
+[
+  {
+    "responseGroupId": "TEST01::cashInPutNotification",
+    "responseBody": "{\"attributes\":{\"FILENAME\":\"$fileName\",\"WORKPLACE_BANK_CODE\":\"$workplacebankCode\",\"CONFIGURATIONID\":\"cashInPutNotification\"},\"attributesArray\":null,\"s3\":{\"object\":{\"key\":\"converted-files-to-cash-in/$fileName\",\"sequencer\":\"0064F635F3BC95A355\"},\"bucket\":{\"name\":\"$bucketName\"}}}"
+  }
+]
